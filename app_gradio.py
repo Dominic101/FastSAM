@@ -1,8 +1,8 @@
-from ultralytics import YOLO
+Wfrom ultralytics import YOLO
 import gradio as gr
 import torch
-from utils.tools_gradio import fast_process
-from utils.tools import format_results, box_prompt, point_prompt, text_prompt
+from util.tools_gradio import fast_process
+from util.tools import format_results, box_prompt, point_prompt, text_prompt
 from PIL import ImageDraw
 import numpy as np
 
